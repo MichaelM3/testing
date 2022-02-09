@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "script1": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
